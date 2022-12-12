@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <!-- header with nav bar-->
+    <header>
+        <nav class="nav-top">
+            <ul>
+                <li>
+                    <a href='home.html' title="Click to go to the home page.">
+                        Home</a>
+                </li>
+                <li>
+                    <a href='portfolio.html' 
+                        title="Click to go to the portfolio page.">
+                        Portfolio</a>
+                </li>
+                <li>
+                    <a href='skills.html' 
+                    title="Click to go to the skills page.">
+                    Skills</a>
+                </li>
+                <li>
+                    <a href='education.html' 
+                    title="Click to go to the education page.">
+                    Education</a>
+                </li>
+                <li>
+                    <a href='contact.html' 
+                    title="Click to go to the contact page.">
+                    Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <!-- no script section-->
+        <noscript>
+            This page requires JavaScript enabled to view its contents.
+            Please enable JavaScript in your browser to view the page in its
+            entirety.
+        </noscript>
+        <!-- section class skills with h1, p, and div for vue app -->
+        <section class = "skills">
+            <h1>Skills</h1>
+            <p class="skills-desc">
+                Below are a few of the languages, skills, and frameworks I have
+                exposure and experience with.
+            </p>
+                <!-- app vue component-->
+                <div id="app">
+                    <div class="col-1">
+                    <!-- div col-1 vue app python mouse over mouse leave-->
+                    <p>
+                        <!-- img with function with parameter index-->
+                        <img :src="python" @mouseover="updatePython(1)" 
+                        @mouseleave="resetPython" 
+                        title="Hover to see Python skills details."
+                        alt="Image of Python logo.">
+                    </p>
+                    <p class="description"> {{ pythonDescription }}</p>
+                    </div>
+                    <div class="col-2">
+                    <!-- div col-2 vue app javascript mouse over mouse leave-->
+                    <p>
+                        <!-- img with function with parameter index-->
+                        <img :src="javascript" @mouseover="updateJavaScript(3)" 
+                        @mouseleave="resetJavaScript"
+                        title="Hover to see JavaScript, Vue, HTML, and CSS 
+                        skills details."
+                        alt="Image of JavaScript, Vue, HTML, and CSS logos.">
+                    </p>
+                    <p class="description"> {{ javascriptDescription }}</p>
+                    </div>
+                    <div class = "col-3">
+                   <!-- div col-3 vue app java mouse over mouse leave-->
+                    <p>
+                        <!-- img with function with parameter index-->
+                        <img :src="java" @mouseover="updateJava(5)" 
+                        @mouseleave="resetJava"
+                        title="Hover to see Java skills details."
+                        alt="Image of Java logo.">
+                    </p>
+                    <p class="description"> {{ javaDescription }}</p>
+                    </div>
+                </div>
+            <p>Hover over each icon to see more details pertaining to the language,
+                framework, and/or skill.</p>
+        </section>   
+    </main>
+    <!-- footer navbar and copyright-->
+    <footer>
+        <nav class="nav-bottom">
+            <ul>
+                <li>
+                    <a href='home.html' title="Click to go to the home page.">
+                        Home</a>
+                </li>
+                <li>
+                    <a href='portfolio.html' 
+                        title="Click to go to the portfolio page.">
+                        Portfolio</a>
+                </li>
+                <li>
+                    <a href='skills.html' 
+                    title="Click to go to the skills page.">
+                    Skills</a>
+                </li>
+                <li>
+                    <a href='education.html' 
+                    title="Click to go to the education page.">
+                    Education</a>
+                </li>
+                <li>
+                    <a href='contact.html' 
+                    title="Click to go to the contact page.">
+                    Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <p class="copyright">&copy; Harrison Huston 2022. All rights 
+            reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="vue/vue.js"></script>
+</body>
+</html>

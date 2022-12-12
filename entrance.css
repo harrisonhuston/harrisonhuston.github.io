@@ -1,0 +1,124 @@
+/* html element styling*/
+a{
+    text-decoration: none;
+}
+/* class element styling*/
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex:1;
+    flex-direction: column;
+}
+.first-name{
+    animation: text-animation 5s linear forwards;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.last-name{
+    animation: text-animation 5s linear forwards;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.enter-rotate{
+    animation: enter-animation-rotate 5s linear forwards;
+}
+.enter{
+    animation: enter-opacity 5s linear forwards;
+}
+.l-1, .l-3, .l-5, .l-7{
+    animation: letter-animation 3s linear forwards;
+    background-color: white;
+    border: .5rem solid #375268;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.l-2, .l-4, .l-6, .l-8{
+    animation: letter-animation-2 3s linear forwards;
+    background-color: #375268;
+    border: .5rem solid #375268;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+/* id element styling*/
+#enter{
+    animation: enter-animation 5s linear 3s infinite;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: transparent;
+    font-size: 5rem;
+}
+/* keyframes animations*/
+@keyframes text-animation{
+    0%{font-size: .25rem; transform: rotate(360deg);}
+    10%{font-size: .5rem;}
+    30%{font-size: .75rem;}
+    40%{font-size: 1rem;}
+    50%{font-size: 1.25rem;}
+    60%{font-size: 1.5rem;}
+    70%{font-size: 1.75rem;}
+    80%{font-size: 2rem;}
+    90%{font-size: 2.25rem;}
+    100%{font-size: 2.5rem;}
+}
+@keyframes enter-animation-rotate{
+    0%{font-size: .5rem; transform: rotate(90deg);}
+    10%{font-size: 1rem;}
+    30%{font-size: 1.5rem;}
+    40%{font-size: 2rem;}
+    50%{font-size: 2.5rem;}
+    60%{font-size: 3rem;}
+    70%{font-size: 3.5rem;}
+    80%{font-size: 4rem;}
+    90%{font-size: 4.5rem;}
+    100%{font-size: 5rem;}
+}
+@keyframes letter-animation{
+    0%{color: #375268;}
+    20%{color: white; background-color: #375268;}
+    40%{color: white; background-color: #375268;}
+    60%{color: white; background-color: #375268;}
+    80%{color: #375268;}
+    100%{color: #375268;}
+}
+@keyframes letter-animation-2{
+    0%{color: white}
+    20%{color: #375268; background-color: white}
+    40%{color: #375268; background-color: white}
+    60%{color: #375268; background-color: white}
+    80%{color: white}
+    100%{color: white}
+}
+@keyframes enter-animation{
+    0%{color: white; background-color: #375268;
+        border: 1rem solid #375268; padding: 1rem;}
+    10%{color: white; background-color: #375268;
+        border: 1rem solid #375268; padding: 1rem;}
+    20%{color: white; background-color: #375268;
+        border: 1rem solid #375268; padding: 1rem;}
+    30%{color:#375268; background-color: white;
+        border: 1rem solid #375268; padding: 1rem;}
+    40%{color:#375268; background-color: white;
+        border: 1rem solid #375268; padding: 1rem;}
+    50%{color:#375268; background-color: white;
+        border: 1rem solid #375268; padding: 1rem;}
+    60%{color:#375268; background-color: white;
+        border: 1rem solid #375268; padding: 1rem;}
+    70%{color:#375268; background-color: white;
+        border: 1rem solid #375268; padding: 1rem;}
+    80%{color: white; background-color: #375268;
+        border: 1rem solid #375268; padding: 1rem;}
+    90%{color: white; background-color: #375268;
+        border: 1rem solid #375268; padding: 1rem;}
+    100%{color: white; background-color: #375268;
+            border: 1rem solid #375268; padding: 1rem;}
+    }
+ @keyframes enter-opacity{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+ }

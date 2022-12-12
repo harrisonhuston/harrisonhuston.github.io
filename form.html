@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harrison Huston Contact Form</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <!--header with nav-->
+    <header>
+        <nav class="nav-top">
+            <ul>
+                <li>
+                    <a href='home.html' title="Click to go to the home page.">
+                        Home</a>
+                </li>
+                <li>
+                    <a href='portfolio.html' 
+                        title="Click to go to the portfolio page.">
+                        Portfolio</a>
+                </li>
+                <li>
+                    <a href='skills.html' 
+                    title="Click to go to the skills page.">
+                    Skills</a>
+                </li>
+                <li>
+                    <a href='education.html' 
+                    title="Click to go to the education page.">
+                    Education</a>
+                </li>
+                <li>
+                    <a href='contact.html' 
+                    title="Click to go to the contact page.">
+                    Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="title">
+        Harrison Huston <br>Contact Form
+    </h1>
+    
+    <!--main class container with form-->
+    <main class="container-form">
+
+        <!-- no script section-->
+        <noscript>
+            This page requires JavaScript enabled to view its contents.
+            Please enable JavaScript in your browser to view the page in its
+            entirety.
+        </noscript>
+
+        <div class="form-left">
+        </div>
+
+        <!-- form class with post method-->
+        <form class="form-form" name="contactForm" 
+            action="https://httpbin.org/post" 
+            onsubmit='return validateForm()' method="post" target="_blank">
+            <!--p class form-intro string break string-->
+            <p class="form-intro">
+                Thank you for you interest in contacting me.
+                <br>
+                Please fill out the below contact form and click submit when 
+                finished.
+            </p>
+
+            <br>
+
+            <!--p class form line text for first name, break, and input-->
+            <p class="form-line">First Name: 
+                <br>  
+                <input id="firstName" type="text" name="firstName" required>
+            </p>
+            <!--p id for invalid first name-->
+            <p id="first-name-invalid"></p>
+
+            <!--p class form line text for last name, break, and input-->
+            <p class="form-line">Last Name:
+                <br> 
+                <input id="lastName" type="text" name="lastName" required> 
+            </p>
+            <!--p id for invalid last name-->
+            <p id="last-name-invalid"></p>
+        
+            <!--p class form line text for email address, break, and input-->
+            <p class="form-line">Email Address:
+                <br> 
+                <input id="email" type="email" name="email" required>
+            </p>
+            <!--p id for invalid email address-->
+            <p id="email-invalid"></p>
+            
+            <br>
+
+            <!--p class form line checkbox for reason(s) for contacting-->
+            <p class="form-line">
+                Please select the reason(s) for contacting me.
+            </p>
+            <p>
+                <!--inputs for checkboxes for reason(s) for contacting-->
+                <!--each runs seperate function on click-->
+                <input id="career" type="checkbox" name="cbCareer" 
+                    value="reasonCareer" onclick="validateCareer()">
+                    Career
+                <input id="website" type="checkbox" name="cbWebsite" 
+                    value="reasonWebsite" onclick="validateWebsite()">
+                    Website
+                <input id="general" type="checkbox" name="cbGeneral" 
+                    value="reasonGeneral" onclick="validateGeneral()">
+                    General Inquiry
+                <input id="other" type="checkbox" name="cbOther" 
+                    value="reasonOther" onclick="validateOther()">
+                    Other
+            </p>
+             <!--id for each major to display/not display based on if clicked-->
+             <p id="reason-career"></p>
+             <p id="reason-website"></p>
+             <p id="reason-general"></p>
+             <p id="reason-other"></p>
+
+            <br>
+
+            <!--p class form line text box for message to facilitator-->
+            <p class="form-line">
+                Please enter your message below:
+            </p>
+
+            <!--p text area for for message to facilitator-->
+            <p>
+                <textarea rows="6" cols="60" 
+                    name="individualComments">Please enter your message here.
+                </textarea>
+            </p>
+
+            <!--p id submit submit button-->
+            <p id="submit"><input class="submit-button" type="submit" 
+                name="submitButton" value="Submit" title="Click to submit.">
+            </p>
+        </form>
+        <div class="form-right">   
+        </div>
+    </main>
+    <!--footer with copyright-->
+    <footer>
+        <nav class="nav-bottom">
+            <ul>
+                <li>
+                    <a href='home.html' title="Click to go to the home page.">
+                        Home</a>
+                </li>
+                <li>
+                    <a href='portfolio.html' 
+                        title="Click to go to the portfolio page.">
+                        Portfolio</a>
+                </li>
+                <li>
+                    <a href='skills.html' 
+                    title="Click to go to the skills page.">
+                    Skills</a>
+                </li>
+                <li>
+                    <a href='education.html' 
+                    title="Click to go to the education page.">
+                    Education</a>
+                </li>
+                <li>
+                    <a href='contact.html' 
+                    title="Click to go to the contact page.">
+                    Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <p class="copyright">&copy; Harrison Huston 2022. All rights 
+            reserved.</p>
+    </footer>
+
+    <!--javascript file as script--> 
+    <script src="form.js"></script>
+</body>
+</html>
