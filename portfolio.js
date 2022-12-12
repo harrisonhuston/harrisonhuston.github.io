@@ -6,6 +6,7 @@
  * the html page.
  */
 
+
 // define functions for each project, when clicked smooth scroll display block
 function nbaClick(){
     document.getElementById('nba-display').style.display ="block";
