@@ -1,0 +1,54 @@
+{
+    "my_hobbies": [
+        {
+            "hobby": {
+                "team": "NBA Basketball - Chicago Bulls"
+            }
+        },
+        {
+            "hobby": {
+                "team": "College Basketball - Syracuse Orange"
+            }
+        },
+        {
+            "hobby": {
+                "team": "NFL Football"
+            }
+        },
+        {
+            "hobby": {
+                "team": "Golf"
+            }
+        },
+        {
+            "hobby": {
+                "sport": "Golf"
+            }
+        },
+        {
+            "hobby": {
+                "sport": "Basketball"
+            }
+        },
+        {
+            "hobby": {
+                "movie": "Superbad"
+            }
+        },
+        {
+            "hobby": {
+                "movie": "Step Brothers"
+            }
+        },
+        {
+            "hobby": {
+                "hobby": "Weight Lifting"
+            }
+        },
+        {
+            "hobby": {
+                "hobby": "Cooking/Baking"
+            }
+        }
+    ]
+}
