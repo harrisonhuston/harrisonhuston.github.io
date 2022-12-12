@@ -4,6 +4,7 @@
  * for contacting via the form.
  */
 
+
 // function validateForm define const 3 functions names take input params
 function validateForm(){
     const fname = validateName('firstName','First');
