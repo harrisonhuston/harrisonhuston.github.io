@@ -44,8 +44,8 @@ function onClick(){
     function processData (data){
 
         // gets id and inner html by index of JSON
-        document.getElementById('watch').innerHTML = "Sports To Watch"
-        document.getElementById('play').innerHTML = "Sports To Play"
+        document.getElementById('watch').innerHTML = "Sports to Watch"
+        document.getElementById('play').innerHTML = "Sports to Play"
         document.getElementById('movies').innerHTML = "Movies"
         document.getElementById('hobbies').innerHTML = "Hobbies"
         
