@@ -23,6 +23,10 @@ a{
     display: flex;
     justify-content: space-around;
 }
+.copyright {
+    text-align:left;
+    font-size:small;
+}
 .enter-rotate{
     animation: enter-animation-rotate 5s linear forwards;
 }
