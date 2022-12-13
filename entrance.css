@@ -154,4 +154,28 @@ a{
         90%{font-size: 1.8rem;}
         100%{font-size: 2rem;}
     }
-}
+    @keyframes enter-animation{
+        0%{color: white; background-color: #375268;
+            border: .25rem solid #375268; padding: .25rem;}
+        10%{color: white; background-color: #375268;
+            border: .25rem solid #375268; padding: .25rem;}
+        20%{color: white; background-color: #375268;
+            border: .25rem solid #375268; padding: .25rem;}
+        30%{color:#375268; background-color: white;
+            border: .25rem solid #375268; padding: .25rem;}
+        40%{color:#375268; background-color: white;
+            border: .25rem solid #375268; padding: .25rem;}
+        50%{color:#375268; background-color: white;
+            border: .25rem solid #375268; padding: .25rem;}
+        60%{color:#375268; background-color: white;
+            border: .25rem solid #375268; padding: .25rem;}
+        70%{color:#375268; background-color: white;
+            border: .25rem solid #375268; padding: .25rem;}
+        80%{color: white; background-color: #375268;
+            border: .25rem solid #375268; padding: .25rem;}
+        90%{color: white; background-color: #375268;
+            border: .25rem solid #375268; padding: .25rem;}
+        100%{color: white; background-color: #375268;
+                border: .25rem solid #375268; padding: .25rem;}
+    }
+    }
