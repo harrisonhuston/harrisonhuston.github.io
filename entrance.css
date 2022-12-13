@@ -26,6 +26,7 @@ a{
 .copyright {
     text-align:left;
     font-size:small;
+    color: #375268;
 }
 .enter-rotate{
     animation: enter-animation-rotate 5s linear forwards;
@@ -126,3 +127,31 @@ a{
     0%{opacity: 0;}
     100%{opacity: 1;}
  }
+
+/* media query less than 1080px change font size*/
+    @media(width <= 1080px){
+        @keyframes text-animation{
+        0%{font-size: .1rem; transform: rotate(360deg);}
+        10%{font-size: .2rem;}
+        30%{font-size: .3rem;}
+        40%{font-size: .4rem;}
+        50%{font-size: .5rem;}
+        60%{font-size: .6rem;}
+        70%{font-size: .7rem;}
+        80%{font-size: .8rem;}
+        90%{font-size: .9rem;}
+        100%{font-size: 1rem;}
+    }
+    @keyframes enter-animation-rotate{
+        0%{font-size: .2rem; transform: rotate(90deg);}
+        10%{font-size: .4rem;}
+        30%{font-size: .6rem;}
+        40%{font-size: .8rem;}
+        50%{font-size: 1rem;}
+        60%{font-size: 1.2rem;}
+        70%{font-size: 1.4rem;}
+        80%{font-size: 1.6rem;}
+        90%{font-size: 1.8rem;}
+        100%{font-size: 2rem;}
+    }
+}
