@@ -4,7 +4,7 @@ Thank you for your interest in my portfolio website. You can view the website at
 
 For more information regarding the source files, please see the below.
 
-index.html - This is the website entrance page. It uses entrance.css as the style sheet. It is an animated page using CSS and allows the user to enter the portfolio website.
+index.html – This is the website entrance page. It uses entrance.css as the style sheet. It is an animated page using CSS and allows the user to enter the portfolio website.
 
 home.html – This is the home page for the website. It uses main.css as the style sheet. It includes information about me, my goals, and my aspirations. It also has a link to a hobbies and interests page called interests.html
 -	interests.html use interests.js in conjunction with interests.json, located in the model folder to conduct a fetch and display elements via DOM manipulation on the interests.html page once the button on the page is clicked. The html page itself uses main.css as the style sheet.
@@ -15,7 +15,7 @@ skills.html – This page displays some of the skills I have accumulated, specif
 
 education.html – This page gives an overview of my education, including courses I have completed during my master's degree, as well as the scholarship I received. It uses main.css as the style sheet.
 
-contact.html- This page provides information on contacting me. It uses main.css as the style sheet. It includes links to various pages.
+contact.html – This page provides information on contacting me. It uses main.css as the style sheet. It includes links to various pages.
 -	Under profile links you will see a link to my LinkedIn page and my GitHub page.
 -	Under Contact Information, you will see a link to my email address, which opens an email to contact me. Additionally, my resume will display in a new page as a PDF to be easily viewed and/or downloaded if the Resume link is clicked. Lastly, under Contact Information is a link to a Contact Form (form.html).
 
