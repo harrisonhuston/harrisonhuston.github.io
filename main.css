@@ -581,7 +581,7 @@ input{
 
 
 /* Edit media width <= 480px */
-@media(max-width: 480px) {
+@media only screen and (max-width: 480px) {
     h1{
         font-size: 2rem;
     }
@@ -647,7 +647,7 @@ input{
 
 
 /* Edit media width <= 600px */
-@media(max-width: 600px) {
+@media only screen and (max-width: 600px) {
     h1{
         font-size: 2.25rem;
     }
@@ -716,7 +716,7 @@ input{
 }
 
 /* Edit media width <= 720px */
-@media(max-width: 720px) {
+@media only screen and (max-width: 720px) {
     h1{
         font-size: 2.5rem;
     }
@@ -785,7 +785,7 @@ input{
 }
 
 /* Edit media width <= 840px */
-@media(max-width: 840px) {
+@media only screen and (max-width: 840px) {
     h1{
         font-size: 2.75rem;
     }
@@ -854,7 +854,7 @@ input{
 }   
 
 /* Edit media width <= 1080px */
-@media(max-width: 1080px)) {
+@media only screen and (max-width: 1080px) {
     h1{
         font-size: 3rem;
     }
