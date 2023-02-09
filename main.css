@@ -583,36 +583,36 @@ input{
 /* Edit media width <= 480px */
 @media only screen and (max-width: 480px) {
     h1{
-        font-size: 2rem;
+        font-size: .5em;
     }
     h2{
-        font-size: 1.5rem;
+        font-size: .5em;
     }
     h3{
-        font-size: 1rem;
+        font-size: .5em;
     }
     p{
-        font-size: 1rem;
+        font-size: .5em;
     }
     article li{
-        font-size: .75rem;
+        font-size: .5em;
     }
 
     .nav-top li{
-        padding-left: .5px;
-        padding-right: .5px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding-left: .5em;
+        padding-right: .5em;
+        padding-top: .5em;
+        padding-bottom: .5em;
         
     }
     .nav-bottom li{
-        padding-left: .5px;
-        padding-right: .5px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding-left: .5em;
+        padding-right: .5em;
+        padding-top: .5em;
+        padding-bottom: .5em;
     }
     .welcome{
-        font-size: .75rem;
+        font-size: .5em;
     }
     .img-linkedin{
         width:35%;
@@ -649,40 +649,40 @@ input{
 /* Edit media width <= 600px */
 @media only screen and (max-width: 600px) {
     h1{
-        font-size: 2.25rem;
+        font-size: .6em;
     }
     h2{
-        font-size: 1.75rem;
+        font-size: .6em;
     }
     h3{
-        font-size: 1.25rem;
+        font-size: .6em;
     }
     p{
-        font-size: 1.25rem;
+        font-size: .6em;
     }
     article li{
-        font-size: 1rem;
+        font-size: .6em;
     }
     table th{
-        font-size: 1rem;
+        font-size: .6em;
     }
     table td{
-        font-size: 1rem;
+        font-size: .6em;
     }
     .nav-top li{
-        padding-left: .75px;
-        padding-right: .75px;
-        padding-top: 6.25px;
-        padding-bottom: 6.25px;     
+        padding-left: .6em;
+        padding-right: .6em;
+        padding-top: .6em;
+        padding-bottom: .6em;     
     }
     .nav-bottom li{
-        padding-left: .75px;
-        padding-right: .75px;
-        padding-top: 6.25px;
-        padding-bottom: 6.25px;
+        padding-left: .6em;
+        padding-right: .6em;
+        padding-top: .6em;
+        padding-bottom: .6em;
     }
     .welcome{
-        font-size: 1rem;
+        font-size: .6em;
     }
     .img-linkedin{
         width:40%;
@@ -718,40 +718,40 @@ input{
 /* Edit media width <= 720px */
 @media only screen and (max-width: 720px) {
     h1{
-        font-size: 2.5rem;
+        font-size: .7em;
     }
     h2{
-        font-size: 2rem;
+        font-size: .7em;
     }
     h3{
-        font-size: 2rem;
+        font-size: .7em;
     }
     p{
-        font-size: 2rem;
+        font-size: .7em;
     }
     article li{
-        font-size: 1.25rem;
+        font-size: .7em;
     }
     table th{
-        font-size: 1.25rem;
+        font-size: .7em;
     }
     table td{
-        font-size: 1.25rem;
+        font-size: .7em;
     }
     .nav-top li{
-        padding-left: 1px;
-        padding-right: 1px;
-        padding-top: 7.5px;
-        padding-bottom: 7.5px;     
+        padding-left: .7em;
+        padding-right: .7em;
+        padding-top: .7em;
+        padding-bottom: .7em;     
     }
     .nav-bottom li{
-        padding-left: 1px;
-        padding-right: 1px;
-        padding-top: 7.5px;
-        padding-bottom: 7.5px;
+        padding-left: .7em;
+        padding-right: .7em;
+        padding-top: .7em;
+        padding-bottom: .7em;
     }
     .welcome{
-        font-size: 1.25rem;
+        font-size: .7em;
     }
     .img-linkedin{
         width:45%;
@@ -787,40 +787,40 @@ input{
 /* Edit media width <= 840px */
 @media only screen and (max-width: 840px) {
     h1{
-        font-size: 2.75rem;
+        font-size: .8em;
     }
     h2{
-        font-size: 2.25rem;
+        font-size: .8em;
     }
     h3{
-        font-size: 2.25rem;
+        font-size: .8em;
     }
     p{
-        font-size: 2.25rem;
+        font-size: .8em;
     }
     article li{
-        font-size: 1.5rem;
+        font-size: .8em;
     }
     table th{
-        font-size: 1.5rem;
+        font-size: .8em;
     }
     table td{
-        font-size: 1.5rem;
+        font-size: .8em;
     }
     .nav-top li{
-        padding-left: 1.25px;
-        padding-right: 1.25px;
-        padding-top: 9px;
-        padding-bottom: 9px;     
+        padding-left: .8em;
+        padding-right: .8em;
+        padding-top: .8em;
+        padding-bottom: .8em;     
     }
     .nav-bottom li{
-        padding-left: 1.25px;
-        padding-right: 1.25px;
-        padding-top: 9px;
-        padding-bottom: 9px;
+        padding-left: .8em;
+        padding-right: .8em;
+        padding-top: .8em;
+        padding-bottom: .8em;
     }
     .welcome{
-        font-size: 1.5rem;
+        font-size: .8em;
     }
     .img-linkedin{
         width:50%;
@@ -856,36 +856,36 @@ input{
 /* Edit media width <= 1080px */
 @media only screen and (max-width: 1080px) {
     h1{
-        font-size: 3rem;
+        font-size: .9em;
     }
     h2{
-        font-size: 2.5rem;
+        font-size: .9em;
     }
     h3{
-        font-size: 2.5rem;
+        font-size: .9em;
     }
     p{
-        font-size: 2.5rem;
+        font-size: .9em;
     }
     article li{
-        font-size: 1.75rem;
+        font-size: .9em;
     }
     table th{
-        font-size: 1.75rem;
+        font-size: .9em;
     }
     table td{
-        font-size: 1.75rem;
+        font-size: .9em;
     }
     .nav-top li{
-        padding-left: 1.5px;
-        padding-right: 1.5px;     
+        padding-left: .9em;
+        padding-right: .9em;     
     }
     .nav-bottom li{
-        padding-left: 1.5px;
-        padding-right: 1.5px;
+        padding-left: .9em;
+        padding-right: .9em;
     }
     .welcome{
-        font-size: 1.75rem;
+        font-size: .9em;
     }
     .img-linkedin{
         width:55%;
