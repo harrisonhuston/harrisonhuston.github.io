@@ -583,10 +583,10 @@ input{
 /* Edit media width <= 480px */
 @media only screen and (max-width: 480px) {
     h1{
-        font-size: .5em;
+        font-size: .55em;
     }
     h2{
-        font-size: .5em;
+        font-size: .55em;
     }
     h3{
         font-size: .5em;
@@ -649,10 +649,10 @@ input{
 /* Edit media width <= 600px */
 @media only screen and (max-width: 600px) {
     h1{
-        font-size: .6em;
+        font-size: .65em;
     }
     h2{
-        font-size: .6em;
+        font-size: .65em;
     }
     h3{
         font-size: .6em;
@@ -718,10 +718,10 @@ input{
 /* Edit media width <= 720px */
 @media only screen and (max-width: 720px) {
     h1{
-        font-size: .7em;
+        font-size: .75em;
     }
     h2{
-        font-size: .7em;
+        font-size: .75em;
     }
     h3{
         font-size: .7em;
@@ -787,10 +787,10 @@ input{
 /* Edit media width <= 840px */
 @media only screen and (max-width: 840px) {
     h1{
-        font-size: .8em;
+        font-size: .85em;
     }
     h2{
-        font-size: .8em;
+        font-size: .85em;
     }
     h3{
         font-size: .8em;
@@ -856,10 +856,10 @@ input{
 /* Edit media width <= 1080px */
 @media only screen and (max-width: 1080px) {
     h1{
-        font-size: .9em;
+        font-size: .95em;
     }
     h2{
-        font-size: .9em;
+        font-size: .95em;
     }
     h3{
         font-size: .9em;
@@ -871,14 +871,14 @@ input{
         font-size: .9em;
     }
     table th{
-        font-size: .9em;
+        font-size: .1em;
     }
     table td{
-        font-size: .9em;
+        font-size: .1em;
     }
     .nav-top li{
-        padding-left: .9em;
-        padding-right: .9em;     
+        padding-left: .1em;
+        padding-right: .1em;     
     }
     .nav-bottom li{
         padding-left: .9em;
