@@ -581,7 +581,7 @@ input{
 
 
 /* Edit media width <= 480px */
-@media(width <= 480px) {
+@media(max-width: 480px) {
     h1{
         font-size: 2rem;
     }
@@ -646,8 +646,8 @@ input{
 }
 
 
-/* Edit media width 481px <= 600px */
-@media (481px <= width <= 600px) {
+/* Edit media width <= 600px */
+@media(max-width: 600px) {
     h1{
         font-size: 2.25rem;
     }
@@ -715,8 +715,8 @@ input{
     } 
 }
 
-/* Edit media width 601px <= 720px */
-@media (601px <= width <= 720px) {
+/* Edit media width <= 720px */
+@media(max-width: 720px) {
     h1{
         font-size: 2.5rem;
     }
@@ -784,8 +784,8 @@ input{
     } 
 }
 
-/* Edit media width 721px <= 840px */
-@media (721px <= width <= 840px) {
+/* Edit media width <= 840px */
+@media(max-width: 840px) {
     h1{
         font-size: 2.75rem;
     }
@@ -853,8 +853,8 @@ input{
     } 
 }   
 
-/* Edit media width 841px <= 1080px */
-@media (841px <= width <= 1080px) {
+/* Edit media width <= 1080px */
+@media(max-width: 1080px)) {
     h1{
         font-size: 3rem;
     }
