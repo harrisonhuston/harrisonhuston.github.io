@@ -642,6 +642,7 @@ input{
     #app{
         display: flex;
         flex-direction: column;
+        width:90%;
     } 
 }
 
@@ -712,6 +713,7 @@ input{
     #app{
         display: flex;
         flex-direction: column;
+        width:90%;
     } 
 }
 
@@ -781,6 +783,7 @@ input{
     #app{
         display: flex;
         flex-direction: column;
+        width:90%;
     } 
 }
 
@@ -850,6 +853,7 @@ input{
     #app{
         display: flex;
         flex-direction: column;
+        width:90%;
     } 
 }   
 
@@ -915,6 +919,7 @@ input{
     #app{
         display: flex;
         flex-direction: column;
+        width:90%;
     } 
 }   
 
