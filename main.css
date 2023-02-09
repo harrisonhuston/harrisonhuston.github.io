@@ -790,6 +790,7 @@ input{
         display: flex;
         flex-direction: column;
         width:90%;
+        position: relative;
     } 
 }
 
@@ -862,6 +863,7 @@ input{
         display: flex;
         flex-direction: column;
         width:90%;
+        position: relative;
     } 
 }   
 
