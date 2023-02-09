@@ -129,7 +129,7 @@ a{
  }
 
 /* media query less than 1080px change font size*/
-    @media(width <= 1080px){
+    @media(width <= 1080px) and (-webkit-min-device-pixel-ratio: 2){
         @keyframes text-animation{
         0%{font-size: .1rem; transform: rotate(360deg);}
         10%{font-size: .2rem;}
