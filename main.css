@@ -616,9 +616,11 @@ input{
     }
     .img-linkedin{
         width:50%;
+        height:50%;
     }
     .img-github{
         width:50%;
+        height:50%;
     }
     .index-title {
         order: 1;    
@@ -687,9 +689,11 @@ input{
     }
     .img-linkedin{
         width:60%;
+        height:60%;
     }
     .img-github{
         width:60%;
+        height:60%;
     }
     .index-title {
         order: 1;    
@@ -757,9 +761,11 @@ input{
     }
     .img-linkedin{
         width:70%;
+        height:70%;
     }
     .img-github{
         width:70%;
+        height:70%;
     }
     .index-title {
         order: 1;    
@@ -827,9 +833,11 @@ input{
     }
     .img-linkedin{
         width:80%;
+        height:80%;
     }
     .img-github{
         width:80%;
+        height:80%;
     }
     .index-title {
         order: 1;    
@@ -893,9 +901,11 @@ input{
     }
     .img-linkedin{
         width:90%;
+        height:90%;
     }
     .img-github{
         width:90%;
+        height:90%;
     }
     .index-title {
         order: 1;    
