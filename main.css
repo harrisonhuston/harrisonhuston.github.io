@@ -581,7 +581,7 @@ input{
 
 
 /* Edit media width <= 480px */
-@media(width <= 480px) {
+@media(width <= 480px) and (-webkit-min-device-pixel-ratio: 2) {
     h1{
         font-size: 2rem;
     }
@@ -647,7 +647,7 @@ input{
 
 
 /* Edit media width 481px <= 600px */
-@media (481px <= width <= 600px) {
+@media (481px <= width <= 600px) and (-webkit-min-device-pixel-ratio: 2) {
     h1{
         font-size: 2.25rem;
     }
