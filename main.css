@@ -615,10 +615,10 @@ input{
         font-size: .5em;
     }
     .img-linkedin{
-        width:35%;
+        width:50%;
     }
     .img-github{
-        width:35%;
+        width:50%;
     }
     .index-title {
         order: 1;    
@@ -685,10 +685,10 @@ input{
         font-size: .6em;
     }
     .img-linkedin{
-        width:40%;
+        width:60%;
     }
     .img-github{
-        width:40%;
+        width:60%;
     }
     .index-title {
         order: 1;    
@@ -754,10 +754,10 @@ input{
         font-size: .7em;
     }
     .img-linkedin{
-        width:45%;
+        width:70%;
     }
     .img-github{
-        width:45%;
+        width:70%;
     }
     .index-title {
         order: 1;    
@@ -823,10 +823,10 @@ input{
         font-size: .8em;
     }
     .img-linkedin{
-        width:50%;
+        width:80%;
     }
     .img-github{
-        width:50%;
+        width:80%;
     }
     .index-title {
         order: 1;    
@@ -888,10 +888,10 @@ input{
         font-size: .9em;
     }
     .img-linkedin{
-        width:55%;
+        width:90%;
     }
     .img-github{
-        width:55%;
+        width:90%;
     }
     .index-title {
         order: 1;    
