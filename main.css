@@ -345,8 +345,7 @@ input{
 #gallery{
     line-height: 0;
     columns: 4;
-    column-gap: 2vh;
-    
+    column-gap: 2vh;   
 }
 
 /* portfolio selector classes icons*/
@@ -488,8 +487,8 @@ input{
 }
 
 
-/* Edit media width 481px <= 600px */
-@media (481px <= width <= 600px) {
+/* Edit media width <= 600px */
+@media (width <= 600px) {
     .index-title {
         order: 1;    
     }
@@ -536,8 +535,8 @@ input{
     }
 }
 
-/* Edit media width 601px <= 720px */
-@media (601px <= width <= 720px) {
+/* Edit media width <= 720px */
+@media (width <= 720px) {
     .index-title {
         order: 1;    
     }
@@ -584,8 +583,8 @@ input{
     }
 }
 
-/* Edit media width 721px <= 840px */
-@media (721px <= width <= 840px) {
+/* Edit media width <= 840px */
+@media (width <= 840px) {
     .index-title {
         order: 1;    
     }
@@ -632,8 +631,8 @@ input{
     } 
 }   
 
-/* Edit media width 841px <= 1080px */
-@media (841px <= width <= 1080px){
+/* Edit media width <= 1080px */
+@media (width <= 1080px){
     .index-title {
         order: 1;    
     }
