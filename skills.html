@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harrison Huston | Skills</title>
+    <title>Skills</title>
     <link href="main.css" rel="stylesheet">
 </head>
 <body>
@@ -59,7 +59,7 @@
                     <!-- div col-1 vue app python mouse over mouse leave-->
                     <p>
                         <!-- img with function with parameter index-->
-                        <img :src="python" @mouseover="updatePython(1)" 
+                        <img class="img-vue" :src="python" @mouseover="updatePython(1)" 
                         @mouseleave="resetPython" 
                         title="Hover to see Python skills details."
                         alt="Image of Python logo.">
@@ -70,9 +70,9 @@
                     <!-- div col-2 vue app javascript mouse over mouse leave-->
                     <p>
                         <!-- img with function with parameter index-->
-                        <img :src="javascript" @mouseover="updateJavaScript(3)" 
+                        <img class="img-vue" :src="javascript" @mouseover="updateJavaScript(3)" 
                         @mouseleave="resetJavaScript"
-                        title="Hover to see JavaScript, Vue, HTML, and CSS 
+                        title="Hover to see JavaScript, Vue.js, HTML, and CSS 
                         skills details."
                         alt="Image of JavaScript, Vue, HTML, and CSS logos.">
                     </p>
@@ -82,7 +82,7 @@
                    <!-- div col-3 vue app java mouse over mouse leave-->
                     <p>
                         <!-- img with function with parameter index-->
-                        <img :src="java" @mouseover="updateJava(5)" 
+                        <img class="img-vue" :src="java" @mouseover="updateJava(5)" 
                         @mouseleave="resetJava"
                         title="Hover to see Java skills details."
                         alt="Image of Java logo.">
@@ -129,5 +129,6 @@
     </footer>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="vue/vue.js"></script>
+    
 </body>
 </html>
