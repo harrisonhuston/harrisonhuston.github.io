@@ -6,8 +6,7 @@ For more information regarding the source files, please see the below.
 
 index.html – This is the website entrance page. It uses entrance.css as the style sheet. It is an animated page using CSS and allows the user to enter the portfolio website.
 
-home.html – This is the home page for the website. It uses main.css as the style sheet. It includes information about me, my goals, and my aspirations. It also has a link to a hobbies and interests page called interests.html
--	interests.html use interests.js in conjunction with interests.json, located in the model folder to conduct a fetch and display elements via DOM manipulation on the interests.html page once the button on the page is clicked. The html page itself uses main.css as the style sheet.
+home.html – This is the home page for the website. It uses main.css as the style sheet. It includes information about me, my goals, and my aspirations.
 
 portfolio.html – This page is used to display some of the projects I have created. The page uses main.css as the style sheet. It also uses the JavaScript file portfolio.js to manipulate the DOM and create an interactive viewing experience for the user. Each project has a zip file that can be downloaded, as well as a link to each project’s GitHub repository. The NBA Data Science and DOW 30 Portfolio Builder projects have embedded video overviews as well. To access each project, the user can simply click on the project’s icon, this reveals and scrolls to the specific project, all while staying on the same page, without having to open separate tabs. To go back to the top of the page, to view the other projects, the user can either scroll, or click the “Top Of The Page” link, which will bring them back to the top of the page. As the user continues to click each project icon, the projects will display on the page and automatically scroll into view.
 
@@ -17,6 +16,4 @@ education.html – This page gives an overview of my education, including course
 
 contact.html – This page provides information on contacting me. It uses main.css as the style sheet. It includes links to various pages.
 -	Under profile links you will see a link to my LinkedIn page and my GitHub page.
--	Under Contact Information, you will see a link to my email address, which opens an email to contact me. Additionally, my resume will display in a new page as a PDF to be easily viewed and/or downloaded if the Resume link is clicked. Lastly, under Contact Information is a link to a Contact Form (form.html).
-
-form.html – This page is accessed from the contact.html page and uses the main.css style sheet. The form utilizes the form.js JavaScript file to validate user inputs into the form. The form posts to an API, once successfully submitted, which opens a new page with the user input in JSON format.
+-	Under Contact Information, you will see a link to my email address, which opens an email to contact me. Additionally, my resume will display in a new page as a PDF to be easily viewed and/or downloaded if the Resume link is clicked.
