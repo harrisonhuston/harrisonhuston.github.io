@@ -27,7 +27,7 @@ createApp({
         // define data strings and logos array index
         backGroundColor: "transparent",
         pythonDescription: "PYTHON",
-        javascriptDescription: "JAVASCRIPT, VUE, HTML, & CSS",
+        javascriptDescription: "JAVASCRIPT, VUE.JS, HTML, & CSS",
         javaDescription: "JAVA",
         logos,
         python: logos[0],
@@ -52,13 +52,14 @@ methods: {
     // update method with id for logos index and string update
     updateJavaScript(id){
         this.javascript = this.logos[id]
-        this.javascriptDescription = `Courses with JavaScript Exposure: Web 
-        Application Development --- Projects: This Website`
+        this.javascriptDescription = `Courses with JavaScript, Vue.js, HTML, 
+        and/or CSS Exposure: Web Application Development --- 
+        Projects: This Website`
     },
     // reset method with logo index and string update
     resetJavaScript(){
         this.javascript = logos[2]
-        this.javascriptDescription = "JAVASCRIPT, VUE, HTML, & CSS"
+        this.javascriptDescription = "JAVASCRIPT, VUE.JS, HTML, & CSS"
     },
     // update method with id for logos index and string update
     updateJava(id){
