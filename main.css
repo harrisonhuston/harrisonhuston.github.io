@@ -69,10 +69,10 @@ input{
 }
 .nav-top li {
     display: inline-block;
-    padding-left: .25vh;
-    padding-right: .25vh;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding-left: .5vh;
+    padding-right: .5vh;
+    padding-top: 1.25vh;
+    padding-bottom: 1.25vh;
     width: 13vh;
     border: .15vh solid var(--primary-blue);
 }
@@ -100,8 +100,8 @@ input{
 }
 .nav-bottom li {
     display: inline-block;
-    padding-left: .25vh;
-    padding-right: .25vh;
+    padding-left: .5vh;
+    padding-right: .5vh;
     width: 13vh;
     border: .15vh solid var(--primary-blue);
 }
