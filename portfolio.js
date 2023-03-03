@@ -8,6 +8,10 @@
 
 
 // define functions for each project, when clicked smooth scroll display block
+function bestClick(){
+    document.getElementById('best-purchase-display').style.display ="block";
+    document.getElementById('best-purchase-display').scrollIntoView({behavior: "smooth"});
+}
 function nbaClick(){
     document.getElementById('nba-display').style.display ="block";
     document.getElementById('nba-display').scrollIntoView({behavior: "smooth"});
