@@ -56,7 +56,7 @@ a{
     display: flex;
     justify-content: space-around;
     color: transparent;
-    font-size: 5rem;
+    font-size: 7vh;
 }
 /* keyframes animations*/
 @keyframes text-animation{
