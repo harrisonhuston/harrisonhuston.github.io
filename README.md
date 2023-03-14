@@ -15,5 +15,5 @@ skills.html – This page displays some of the skills I have accumulated, specif
 education.html – This page gives an overview of my education, including courses I have completed during my master's degree, as well as the scholarship I received. It uses main.css as the style sheet.
 
 contact.html – This page provides information on contacting me. It uses main.css as the style sheet. It includes links to various pages.
--	Under profile links you will see a link to my LinkedIn page and my GitHub page.
+-	Under Profile Links you will see a link to my LinkedIn page and my GitHub page.
 -	Under Contact Information, you will see a link to my email address, which opens an email to contact me. Additionally, my resume will display in a new page as a PDF to be easily viewed and/or downloaded if the Resume link is clicked.
