@@ -8,6 +8,10 @@
 
 
 // define functions for each project, when clicked smooth scroll display block
+function departmentClick(){
+    document.getElementById('department-manager-display').style.display ="block";
+    document.getElementById('department-manager-display').scrollIntoView({behavior: "smooth"});
+}
 function bestClick(){
     document.getElementById('best-purchase-display').style.display ="block";
     document.getElementById('best-purchase-display').scrollIntoView({behavior: "smooth"});
