@@ -64,9 +64,10 @@ methods: {
     // update method with id for logos index and string update
     updateJava(id){
         this.java = this.logos[id]
-        this.javaDescription = `Courses with Java Exposure: Data Structures and 
-        Algorithms and Advanced Programming Techniques --- Projects: Memory
-        Merge Find and Process Scheduler`
+        this.javaDescription = `Courses with Java Exposure: Software Design and 
+        Patterns, Data Structures and Algorithms, and Advanced Programming 
+        Techniques --- Projects: Department Manager, Memory Merge Find, and 
+        Process Scheduler`
     },
     // reset method with logo index and string update
     resetJava(){
