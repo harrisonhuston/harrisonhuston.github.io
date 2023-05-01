@@ -187,6 +187,12 @@
      background-color: var(--primary-gray);
      padding: 2vh;
  }
+ .department-manager-portfolio{
+    flex: 1;
+     padding-bottom: 2%;
+     padding-top: 2%;
+     display: none;
+ }
  .best-purchase-portfolio{
     flex: 1;
      padding-bottom: 2%;
@@ -217,6 +223,17 @@
      padding-bottom: 2%;
      padding-top: 2%;
      display: none;
+ }
+ .img-department{
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-width: 614px;
+    max-height: 426px;
+    margin: auto;
+ }
+ .img-department:hover{
+    zoom:105%
  }
  .img-best{
     display: flex;
@@ -375,11 +392,19 @@
  /* portfolio gallery id for icons*/
  #gallery{
      line-height: 0;
-     columns: 5;
+     columns: 6;
      column-gap: 2vh;   
  }
  
  /* portfolio selector classes icons*/
+ .department-manager-icon {
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-width: 650px;
+    max-height: 650px;
+    margin: auto;
+}
  .best-purchase-icon {
     display: flex;
     width: 100%;
@@ -498,6 +523,10 @@
          display: flex;
          flex-direction: column;
      }
+     .department-icon{
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+     }
      .best-purchase-icon{
         margin-top: 1vh;
         margin-bottom: 1vh;
@@ -550,6 +579,12 @@
      .img-github:hover{
          zoom:100%;
      }
+     .department-manager-portfolio{
+        flex: 1;
+         padding-bottom: 2%;
+         padding-top: 2%;
+         display: block;
+     }
      .best-purchase-portfolio{
         flex: 1;
          padding-bottom: 2%;
@@ -585,4 +620,3 @@
          flex-direction: column;
      } 
  }
- 
