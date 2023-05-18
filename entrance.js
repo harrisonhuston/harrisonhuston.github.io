@@ -46,7 +46,7 @@ camera.position.x = 0;
 animate();
 
 // define texture to load jpg enter image
-const texture = new THREE.TextureLoader().load('Enter.jpg'); 
+const texture = new THREE.TextureLoader().load('images/Enter.jpg'); 
 
 // create geometry H letters
 const geometry = new THREE.BoxGeometry( 1, 3, 1 );
