@@ -4,7 +4,7 @@ Thank you for your interest in my portfolio website. You can view the website at
 
 For more information regarding the source files, please see the below.
 
-index.html – This is the website entrance page. It uses entrance.css as the style sheet. It is an animated page using CSS and allows the user to enter the portfolio website.
+index.html – This is the website entrance page. It uses entrance.css as the style sheet. It is an animated page using Three JS and relies on entrance.js.
 
 home.html – This is the home page for the website. It uses main.css as the style sheet. It includes information about me, my goals, and my aspirations.
 
